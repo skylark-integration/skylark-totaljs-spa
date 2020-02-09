@@ -1,0 +1,33 @@
+{
+  "name": "skylark-totaljs-spa",
+  "description": "A version of totaljs spa that ported to running on skylarkjs",
+  "version": "0.9.0",
+  "keywords": [
+    "skylark",
+    "totaljs",
+    "spa"
+  ],
+  "homepage": "https://github.com/skylark-integration/skylark-totaljs-spa/",
+  "author": "Hudaokeji, Inc.",
+  "scripts": {
+    "build": "sbundle build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylark-integration/skylark-totaljs-spa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylark-integration/skylark-totaljs-spa/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "skylark-jquery": "git+https://github.com/skylark-integration/skylark-jquery.git#master",
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master",
+    "skylark-tangular": "git+https://github.com/skylark-integration/skylark-tangular.git#master",
+    "skylark-totaljs-jcomponent": "git+https://github.com/skylark-integration/skylark-totaljs-jcomponent.git#master",
+    "skylark-totaljs-jrouting": "git+https://github.com/skylark-integration/skylark-totaljs-jrouting.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}

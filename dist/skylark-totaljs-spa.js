@@ -1,0 +1,9 @@
+/**
+ * skylark-totaljs-spa - A version of totaljs spa that ported to running on skylarkjs
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/skylark-totaljs-spa/
+ * @license MIT
+ */
+!function(r,t){var a=t.define,require=t.require,n="function"==typeof a&&a.amd,o=!n&&"undefined"!=typeof exports;if(!n&&!a){var l={};a=t.define=function(r,t,a){"function"==typeof a?(l[r]={factory:a,deps:t.map(function(t){return function(r,t){if("."!==r[0])return r;var a=t.split("/"),n=r.split("/");a.pop();for(var o=0;o<n.length;o++)"."!=n[o]&&(".."==n[o]?a.pop():a.push(n[o]));return a.join("/")}(t,r)}),resolved:!1,exports:null},require(r)):l[r]={factory:null,resolved:!0,exports:a}},require=t.require=function(r){if(!l.hasOwnProperty(r))throw new Error("Module "+r+" has not been defined");var module=l[r];if(!module.resolved){var a=[];module.deps.forEach(function(r){a.push(require(r))}),module.exports=module.factory.apply(t,a)||null,module.resolved=!0}return module.exports}}if(!a)throw new Error("The module utility (ex: requirejs or skylark-utils) is not loaded!");if(function(r,require){r("skylark-tangular/globals",["./tangular","./helpers"],function(r){return function(){var t=window;t.Ta=t.Tangular=r,t.Thelpers=r.helpers}}),r("skylark-totaljs-spa/main",["skylark-langx/skylark","skylark-jquery","skylark-totaljs-jcomponent","skylark-totaljs-jrouting","skylark-tangular","skylark-totaljs-jcomponent/globals","skylark-totaljs-jrouting/globals","skylark-tangular/globals"],function(r,t,a,n,o,l,e,s){var u=r.attach("intg.totaljs.spa",{});return l(),e(),s(),t(function(){COMPILE()}),u}),r("skylark-totaljs-spa",["skylark-totaljs-spa/main"],function(r){return r})}(a),!n){var e=require("skylark-langx/skylark");o?module.exports=e:t.skylarkjs=e}}(0,this);
+//# sourceMappingURL=sourcemaps/skylark-totaljs-spa.js.map
